@@ -1,7 +1,7 @@
 # 2022c
 # Week07
-##
-step01-1
+## tep01-1
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -11,8 +11,9 @@ int main()
     printf("%lld\n", a);
 
 }
-##
-step01-2
+```
+## 01-2
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -24,8 +25,9 @@ int main()
     }
     printf("答案是:%lld\n",ans);
 }
-##
-step01-3
+```
+## sep01-3
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -41,8 +43,9 @@ int main()
     }
     printf("答案是:%lld\n",b);
 }
-##
-step01-4
+```
+## step01-4
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -53,11 +56,11 @@ int main()
         n = n /10;
     }
 }
-
+```
 # 2022c
 # Week08
-##
-step01-1
+## step01-1
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -72,8 +75,9 @@ int main()
         printf("\n");
     }
 }
-##
-step01-2
+```
+## step01-2
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -92,8 +96,9 @@ int main()
          i++;
     }
 }
-##
-step01-3
+```
+## step01-3
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -108,10 +113,10 @@ int main()
     }
     if(bad==0) printf("%d是質數(沒有壞掉)", n);
     else printf("%d 不是質數(早就壞掉了)", n);
-
 }
-##
-step01-4
+```
+## step01-4
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -126,3 +131,32 @@ int main()
         if(bad==0) printf("%d ", n);
     }
 }
+```
+# Week10
+## step01-1
+```cpp
+#include <stdio.h>
+int main()
+{
+    int a[4] = {10, 20, 30, 40};
+    printf("a[0]:%d\n", a[0] );
+    printf("a[1]:%d\n", a[1] );
+    printf("a[2]:%d\n", a[2] );
+    printf("a[3]:%d\n", a[3] );
+}
+```
+## step01-2
+```cpp
+#include <stdio.h>
+int main()
+{
+    int a[4] = {10, 20, 30, 40};
+    for(int i=0; i<4; i++){
+        printf("a [%d]: %d\n", i, a[i]);
+
+    }
+    for(int i=3; i>=0; i--){
+        printf("%d ", a[i] );
+    }
+}
+```
